@@ -1,0 +1,892 @@
+
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+
+header {
+    width: 100%;
+    height: 720px;
+    background: url(../images/phone1.png);
+    background-size: 100% 762px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-size: 14px;
+    font-family: Roboto;
+
+}
+.header_top{
+    margin-top: 40px;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: flex-start;
+}
+
+
+.navbar_nachalo{
+    width: 33.1%;
+    height: 22px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.navbar_nachalo ul{
+    margin-right: 40px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.walden{
+    margin-left: 35px;
+}
+.header_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+.button_1 button {
+    height: 38px;
+    width: 169px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.nadpis{
+    height: 185px;
+    width: 100%;
+    border-radius: nullpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nadpis_in{
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+
+    font-weight: normal;
+    color: #757575;
+
+}
+
+.second_part {
+
+    width: 100%;
+    height: 562px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.product_blocks2 {
+    width: 100%;
+    height: 562px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.block2 {
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.one2 {
+    width: 63px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.two2 {
+    width: 386px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.three2 {
+    width: 386px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.four2 {
+    width: 386px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.five2 {
+    width: 76px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.button_2 button { 
+    border: none; 
+    height: 41px;
+    width: 40px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_3 button {  
+    /* border: none; */
+    height: 41px;
+    width: 362px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_4 button {  
+    border: none;
+    height: 41px;
+    width: 362px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_5 button {  
+    border: none;
+    height: 41px;
+    width: 362px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_6 button {  
+    border: none;
+    height: 41px;
+    width: 40px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+
+.third_part{
+    margin-left: 55px; 
+    width: 1330px;
+    height: 777px;
+    background: url(../images/phone2.png);
+    background-size: 100% 777px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.third_top{
+    margin-top: 56px;
+    width: 100%;
+    height: 388px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.gong{
+    margin-top: 56px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.third_text{
+    margin-top: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.third_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 35px;
+}
+.button_7 button {  
+    height: 36px;
+    width: 105px;
+    border-radius: 50px;
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.nadpis_2{
+    height: 185px;
+    width: 100%;
+    border-radius: nullpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nadpis_in2{
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+
+    font-weight: normal;
+    color: #757575;
+
+}
+
+
+.fourth_part {
+
+    width: 100%;
+    height: 762px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.product_blocks4 {
+    width: 100%;
+    height: 562px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block4 {
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    flex-direction: row;
+}
+.one4 {
+    width: 100px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.two4 {
+    width: 386px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.three4 {
+    width: 366px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.four4 {
+    width: 366px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.five4 {
+    width: 99px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.button_8 button { 
+    border: none; 
+    height: 104px;
+    width: 40px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_9 button {  
+    border: none;
+    height: 104px;
+    width: 342px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    color: #757575;
+    justify-content: center;
+    align-items: center;
+    border-color: #FFFFFF;
+}
+.button_10 button {  
+    border: none;
+    height: 104px;
+    width: 342px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_11 button {  
+    border: none;
+    height: 104px;
+    width: 342px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_12 button {  
+    border: none;
+    height: 104px;
+    width: 40px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+
+.fifth_part{
+    width: calc(100% - 70px);
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    padding: 35px 35px;
+    /* padding-left: 35px; */
+    background-color: white;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #848484;
+}
+.fifth_top{
+    width: 100%;
+    height: 50%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.fifth_bottom{
+    width: 100%;
+    height: 50%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.block5 {
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    flex-direction: row;
+}
+.one5 {
+    width: 338px;
+    height: 172px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.two5 {
+    width: 338px;
+    height: 172px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.three5 {
+    width: 338px;
+    height: 172px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.four5 {
+    width: 338px;
+    height: 172px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.five5 {
+    width: 338px;
+    height: 172px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.six5 {
+    width: 338px;
+    height: 172px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sixth_part{
+    width: 100%;
+    height: 910px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.sixth_part_in{ 
+    width: 1330px;
+    height: 800px;
+    background: url(../images/phone3.png);
+    background-size: 100% 800px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.sixth_top{
+    /* margin-top: 56px; */
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.sixth_text{
+    /* margin-top: 21px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.sixth_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 35px;
+}
+.button_13 button {  
+    height: 36px;
+    width: 206px;
+    border-radius: 50px;
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.nadpis_3{
+    height: 135px;
+    width: 100%;
+    border-radius: nullpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nadpis_in3{
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+
+    font-weight: normal;
+    color: #757575;
+
+}
+
+.seventh_part {
+
+    width: 100%;
+    height: 562px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.product_blocks7 {
+    width: 100%;
+    height: 562px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block7 {
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    flex-direction: row;
+}
+.one7 {
+    width: 63px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.two7 {
+    width: 386px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.three7 {
+    width: 386px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.four7 {
+    width: 386px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.five7 {
+    width: 61px;
+    height: 562px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.eighth_part{
+    width: 100%;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eighth_text{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #9B9B9B;
+}
+.button_19 button {  
+    margin-top: 15px;
+    height: 27px;
+    width: 277px;
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    border: 1px solid #9B9B9B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8C8C8C;
+
+}
+
+.ninth_part{
+    width: 100%;
+    height: 56px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.ninth_part ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #8C8C8C;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.line_grey{
+    width: 100%;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    align-items: center;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+}
+.button_14 button { 
+    border: none; 
+    height: 41px;
+    width: 40px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_15 button {  
+    border: none;
+    height: 41px;
+    width: 362px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_16 button {  
+    border: none;
+    height: 41px;
+    width: 362px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_17 button {  
+    border: none;
+    height: 41px;
+    width: 362px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
+.button_18 button {  
+    border: none;
+    height: 41px;
+    width: 40px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    border-color: #FFFFFF;
+}
